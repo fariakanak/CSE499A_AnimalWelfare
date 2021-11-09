@@ -273,7 +273,7 @@ body {
 }
 
 a.main-button-slider {
-  font-size: 13px;
+  font-size: 20px;
   border-radius: 50px;
   padding: 12px 20px;
   background-color: #E2725A;
@@ -288,7 +288,6 @@ a.main-button-slider {
 a.main-button-slider:hover {
   background-color: #E05C3F;
   font-size: larger;
-  border-radius: 60px;
 }
 
 a.main-button {
@@ -598,7 +597,7 @@ button.main-button:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(img/banner-bg.jpg);
+  background-image: url(img/banner-bg.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover; 
@@ -619,7 +618,7 @@ button.main-button:hover {
   line-height: 54px;
   letter-spacing: 1.4px;
   margin-bottom: 30px;
-  color: #4A6274;
+  color: #FFF;
 }
 
 .welcome-area .header-text p {
