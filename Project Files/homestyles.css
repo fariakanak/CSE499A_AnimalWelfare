@@ -1069,6 +1069,11 @@ button.main-button:hover {
   z-index: 2;
 }
 
+.features-title:hover{
+  color: #E2725A;
+  font-size: 20px;
+}
+
 .features-small-item p {
   font-weight: 400;
   font-size: 13px;
