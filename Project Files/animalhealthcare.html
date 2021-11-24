@@ -114,7 +114,7 @@
                   <div class="icon">
                     <i><img src="img/appointment.png" alt="" /></i>
                   </div>
-                  <h5 class="features-title">Create an Appointment</h5>
+                  <h5 class="features-title" onclick="openCreateAnAptForm()">Create an Appointment</h5>
                   <p>
                     You can create appointments with your preferred
                     veterinarians at your preferred time through Happy Tails.
@@ -169,7 +169,7 @@
                   <div class="icon">
                     <i><img src="img/prescription.png" alt="" /></i>
                   </div>
-                  <h5 class="features-title">Prescriptions</h5>
+                  <h5 class="features-title" onclick="openPrescription()">Prescriptions</h5>
                   <p>
                     Here you can access all the prescriptions your veterinarians
                     have written for your beloved pet through Happy Tails.
@@ -204,9 +204,21 @@
 
     <script>
     function openCallAVetForm(){
-        window.open("callavetform.html", "_self")
+        window.open("callavetform.html")
     }
     </script>
+
+  <script>
+  function openCreateAnAptForm(){
+      window.open("createanapt.html")
+  }
+  </script>
+
+  <script>
+  function openPrescription(){
+      window.open("prescription.html")
+  }
+  </script>
 
   </body>
 </html>

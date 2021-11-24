@@ -14,7 +14,7 @@
     />
     <link rel="shortcut icon" type="image/ico" href="img/favicon.png" />
 
-    <title>Call A Veterinarian Home</title>
+    <title>Prescriptions</title>
 
     <!-- Additional CSS Files -->
     <link rel="stylesheet" type="text/css" href="bootstrap.min.css" />
@@ -53,44 +53,42 @@
 		<div class="wrap-contact100">
 			<form class="contact100-form validate-form">
 				<span class="contact100-form-title">
-					Call A Veterinarian Home
+					Write A Prescription
 				</span>
 
-				<div class="wrap-input100 validate-input" data-validate="Name is required">
-					<span class="label-input100">Your Name</span>
+        <div class="wrap-input100 validate-input" data-validate="Name is required">
+					<span class="label-input100">Name</span>
 					<input class="input100" type="text" name="name" placeholder="Enter your name">
 					<span class="focus-input100"></span>
 				</div>
 
-        <div class="wrap-input100 validate-input" data-validate="Contact No. is required">
-					<span class="label-input100">Contact No.</span>
-					<input class="input100" type="number" name="contact no" placeholder="Enter your Contact No.">
+        <div class="wrap-input100 validate-input" data-validate="Name is required">
+					<span class="label-input100">BVC Registration No.</span>
+					<input class="input100" type="text" name="name" placeholder="Enter your BVC Registration No.">
 					<span class="focus-input100"></span>
 				</div>
 
-				<div class="wrap-input100 validate-input">
-					<span class="label-input100">Address</span>
-					<input class="input100" type="text" name="address" placeholder="Enter your address">
+				<div class="wrap-input100 validate-input" data-validate="Name is required">
+					<span class="label-input100">Patient's Name</span>
+					<input class="input100" type="text" name="name" placeholder="Enter patient's name">
 					<span class="focus-input100"></span>
 				</div>
 
-				<div class="wrap-input100 input100-select">
-					<span class="label-input100">Appointment Time</span>
-					<input class='input100' type="datetime" placeholder="Enter Preferred Appointment Time" id='datetimepicker1'>
+				<div class="wrap-input100 validate-input" data-validate="Name is required">
+					<span class="label-input100">Appointment ID</span>
+					<input class="input100" type="text" name="name" placeholder="Enter the Appointment ID">
 					<span class="focus-input100"></span>
 				</div>
 
-				<div class="wrap-input100 input100-select">
-					<span class="label-input100">Select your doctor</span>
-					<div>
-						<select class="selection-2" name="service">
-							<option>Select Doctor</option>
-							<option>1</option>
-							<option>2</option>
-							<option>3</option>
-							<option>4</option>
-						</select>
-					</div>
+        <div class="wrap-input100 validate-input" data-validate = "Message is required">
+					<span class="label-input100">Prescription</span>
+					<textarea class="input100" name="message" placeholder="List all the medicines here"></textarea>
+					<span class="focus-input100"></span>
+				</div>
+
+        <div class="wrap-input100 validate-input" data-validate = "Message is required">
+					<span class="label-input100">Suggestions</span>
+					<textarea class="input100" name="message" placeholder="Enter suggestions"></textarea>
 					<span class="focus-input100"></span>
 				</div>
 
@@ -99,7 +97,7 @@
 						<div class="contact100-form-bgbtn"></div>
 						<button class="contact100-form-btn">
 							<span>
-								Request for Home Appointment
+								Prescribe
 							</span>
 						</button>
 					</div>
@@ -140,7 +138,7 @@
 <!--===============================================================================================-->
 	<script src="vendor/countdowntime/countdowntime.js"></script>
 <!--===============================================================================================-->
-	<script src="main.js"></script>
+	<script src="js/main.js"></script>
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
