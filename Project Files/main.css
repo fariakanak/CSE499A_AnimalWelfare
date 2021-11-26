@@ -106,9 +106,11 @@ iframe {
 /*---------------------------------------------*/
 .container {
 	max-width: 1200px;
+  font-size: 18px;
+	line-height: 1.7;
+	color: #4A6274;
+  padding: 0 5px;
 }
-
-
 
 
 
@@ -212,6 +214,10 @@ iframe {
   transition: all 0.4s;
 
   background: #7f7f7f;
+}
+
+.checkbox{
+  max-width: 1200px;
 }
 
 

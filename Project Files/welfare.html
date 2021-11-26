@@ -90,7 +90,7 @@
                               <div class="icon">
                                   <i><img src="img/alert.png" alt=""></i>
                               </div>
-                              <h5 class="features-title">Create a Rescue Alert</h5>
+                              <h5 class="features-title" onClick="openRescueAlertForm()">Create a Rescue Alert</h5>
                               <p>Spotted an animal that needs rescuing? Make a request for it to be rescued through this portal. Our registered animal welfare organizations will volunteer for the job!</p>
                           </div>
                       </div>
@@ -102,7 +102,7 @@
                               <div class="icon">
                                   <i><img src="img/vaccination.png" alt=""></i>
                               </div>
-                              <h5 class="features-title">Request Area-wide Vaccination Program</h5>
+                              <h5 class="features-title" onClick="openVacForm()">Request Area-wide Vaccination Program</h5>
                               <p>Wanna create a safe neighborhood for all the people and the animals? Request for area-wide vaccination here.</p>
                           </div>
                       </div>
@@ -114,7 +114,7 @@
                             <div class="icon">
                                 <i><img src="img/spay.png" alt=""></i>
                             </div>
-                            <h5 class="features-title">Request Area-wide Spay/Neuter Program</h5>
+                            <h5 class="features-title" onclick="openSpayNeuterForm()">Request Area-wide Spay/Neuter Program</h5>
                             <p>Request for area-wide spay/vaccination for all the cats & dogs to keep the population at bay.</p>
                         </div>
                     </div>
@@ -125,4 +125,22 @@
           </div>
       </div>
   </section>
+
+    <script>
+    function openRescueAlertForm(){
+        window.open("rescuealert.html")
+    }
+    </script>
+
+    <script>
+    function openVacForm(){
+        window.open("vaccination.html")
+    }
+    </script>
+
+    <script>
+    function openSpayNeuterForm(){
+        window.open("spayneuter.html")
+    }
+    </script>
 </body>

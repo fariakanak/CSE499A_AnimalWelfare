@@ -79,7 +79,7 @@
                                   <i><img src="img/browse.png" alt=""></i>
                               </div>
                               <h5 class="features-title">Browse to Adopt</h5>
-                              <p>You can browse all the veterinarians that are registered in Happy Tails and over their service through our system.</p>
+                              <p>You can browse all the veterinarians that are registered in Happy Tails and offer their service through our system.</p>
                           </div>
                       </div>
                       <!-- ***** Features Small Item End ***** -->
@@ -90,7 +90,7 @@
                               <div class="icon">
                                   <i><img src="img/forever-home.png" alt=""></i>
                               </div>
-                              <h5 class="features-title">Put Animal up for Adoption</h5>
+                              <h5 class="features-title" onClick="openAdoptionForm()">Put Animal up for Adoption</h5>
                               <p>You can create appointments with your preferred veterinarians at your preferred time through Happy Tails.</p>
                           </div>
                       </div>
@@ -100,4 +100,10 @@
           </div>
       </div>
   </section>
+
+    <script>
+    function openAdoptionForm(){
+        window.open("adoptionform.html")
+    }
+    </script>
 </body>
