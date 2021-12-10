@@ -150,7 +150,7 @@
                   <div class="icon">
                     <i><img src="img/video-call.png" alt="" /></i>
                   </div>
-                  <h5 class="features-title">Attend Appointment</h5>
+                  <h5 class="features-title" onClick="openAttendAppointment()">Attend Appointment</h5>
                   <p>
                     Once your preferred veterinarian accepts your appointment
                     request, you can use your appointment ID to attend it via
@@ -187,7 +187,7 @@
                   <div class="icon">
                     <i><img src="img/locate.png" alt="" /></i>
                   </div>
-                  <h5 class="features-title">Locate a Veterinarian</h5>
+                  <h5 class="features-title" onClick="openMaps()">Locate a Veterinarian</h5>
                   <p>
                     Need an emergency visit to a vet? Insert the veterinarian's
                     provided address from our list & locate the clinic right
@@ -217,6 +217,18 @@
   <script>
   function openPrescription(){
       window.open("prescription.html")
+  }
+  </script>
+
+  <script>
+  function openAttendAppointment(){
+      window.open("https://video-app-4933-9049-dev.twil.io")
+  }
+  </script>
+
+  <script>
+  function openMaps(){
+      window.open("googlemaps.php")
   }
   </script>
 
